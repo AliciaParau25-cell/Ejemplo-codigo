@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Arial, sans-serif;
+  background-image: url("../IMAGENES/fondo.jpeg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+
+header 
+{
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  border: 7px solid rgb(158, 177, 240);
+
+}
+
+header h1 
+{
+  font-size: 30px;
+  color: rgb(107, 111, 148);
+}
+
+nav 
+{
+  padding: 10px;
+  margin: 15px auto;
+  width: 60%;
+}
+
+nav ul 
+{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+nav a 
+{
+  padding: 8px 15px;
+  background-color: rgb(131, 140, 189);
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+nav a:hover 
+{
+  background-color: rgb(255, 255, 255);
+}
+
+main 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+article 
+{
+  width: 300px;
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 15px;
+  border: 3px solid rgb(0, 0, 177);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+}
+article img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+button
+{
+    font-size: 18px;
+    background-color: white;
+    padding: 10px 20px;
+    color: blue;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer 
+{
+  background-color: rgb(255, 255, 255);
+  padding: px;
+  margin-top: 30px;
+  border: 10px solid rgb(158, 177, 240);
+}
